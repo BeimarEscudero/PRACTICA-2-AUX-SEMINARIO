@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
 import "./App.css";
 
 function App() {
@@ -8,10 +9,8 @@ function App() {
     <div className="App">
       <Header />
       <Hero />
+      <About /> {}
       <main>
-        <section id="about" className="section-placeholder">
-          <h1>Sección Sobre Mí - Próximamente</h1>
-        </section>
         <section id="projects" className="section-placeholder">
           <h1>Sección Proyectos - Próximamente</h1>
         </section>
